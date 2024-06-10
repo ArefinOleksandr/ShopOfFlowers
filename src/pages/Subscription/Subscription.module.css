@@ -1,0 +1,265 @@
+@media (min-width: 960px){
+
+    /* RESPONSIVE */
+
+    .offer-section{
+        
+    flex-direction: row;
+    }
+    .about-subscribe-section{
+        flex-direction: row;
+    }
+    .subscribe-section{
+        flex-direction: row;
+    }
+    .offer-section > img {
+        width: 50vw
+    }
+    .offer-section-content{
+        width: 50vw
+    }
+
+    /* Fonts */
+    .subscription-page-font-styles h1{
+        font-size: 3.472vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles h6{
+        font-size: 1.11vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles li{
+        font-size: 1.111vw;
+    }
+    .subscription-page-font-styles button{
+        font-size: 1.111vw;
+    }
+    .subscription-page-font-styles h3 {
+        font-size: 2.63vw;
+    }
+    .subscription-page-font-styles p {
+        font-size: 1.111vw;
+    }
+    .faq-block > ul > li > a{
+        font-size: 1.94vw;
+    }
+
+}
+@media (max-width: 960px) {
+    .offer-section-content{
+        padding: 10.41vw!important; 
+    }
+    .offer-section-transparent-button{
+        width: 100%
+    }
+
+    /* RESPONSIVE */
+    
+
+    .offer-section{
+        flex-direction: column;
+    }
+    .about-subscribe-section{
+        flex-direction: column;
+    }
+    .subscribe-section{
+        flex-direction: column-reverse;
+    }
+    .subscribe-section-image > img{
+        width: 100%;
+    }
+    .counter{
+        width: 19.01vw!important;
+        height: 5.72vw!important;
+    }
+    .counter > input{
+        font-size: 2.08vw;
+    }
+
+    /* Fonts */
+    .subscription-page-font-styles h1{
+        font-size: 6.51vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles h6{
+        font-size: 2.083vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles li{
+        font-size: 2.083vw;
+    }
+    .subscription-page-font-styles button{
+        font-size: 2.083vw;
+    }
+
+}
+@media (max-width: 375px) {
+    /* RESPONSIVE */
+
+    
+
+
+    /* Fonts */
+    .subscription-page-font-styles h1{
+        font-size: 9.06vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles h6{
+        font-size: 4.27vw;
+        font-weight: 600;
+    }
+    .subscription-page-font-styles li{
+        font-size: 4.27vw;
+    }
+    .subscription-page-font-styles button{
+        font-size: 4.27vw;
+    }
+}
+
+.offer-section{
+    display: flex;
+}
+
+.offer-section-content{
+    padding: 5.55vw; 
+    
+}
+.offer-section-content > h1 {
+    
+    margin-bottom: 1.66vw;
+}
+.offer-section-content h6 {
+    margin-bottom: .5556vw;
+    
+}
+.offer-section-content ul{
+    margin: 0
+}
+.offer-section-content > div{
+    margin-bottom: 1.66vw;
+}
+.offer-section-transparent-button{
+    padding: 0 1.66vw 0 1.66vw;
+    height: 56px;
+    border: 1px solid #121212;
+    cursor: pointer;
+}
+
+
+.about-subscribe-section{
+    margin: 0;
+    display: flex;
+}
+
+.about-subscribe-section-content{
+    border: 1px solid #121212;
+    border-left: 0;
+    padding: 0
+}
+
+.about-subscribe-section-content > div{
+    padding: 5.55vw;
+    border-bottom: 1px solid #121212;
+}
+.about-subscribe-section-content > div:last-child{
+    border: 0
+}
+
+/* Subscribe  Section*/
+
+.subscribe-section{
+    display: flex;
+}
+.subscribe-section-image{
+    border: 1px solid #121212;
+    border-top: 0;
+    border-left: 0;
+}
+.subscribe-section-form{
+    border: 1px solid #121212;
+    border-top: 0;
+    padding: 5.555vw 2.7778vw;
+}
+.subscribe-section-form > span, .subscribe-section-form > h3{
+    font-weight: 600;
+}
+.subscription-plan{
+    margin-bottom: 1.111vw;
+}
+.subscription-plan span {
+    font-weight: 700;
+}
+.subscription-plan > div{
+    border: 1px solid lightgray;
+    display:flex;
+    flex-direction: row;
+}
+.subscription-plan > div > div{
+    padding: 1.111vw;
+}
+
+.subscription-plan button {
+    background-color: #121212;
+    color: #fff;
+}
+.subscribe-section-form-subscription-plans{
+    border-bottom: 1px solid lightGray;
+}
+.subscribe-section-form-second-step{
+    padding-top: 2.7778vw;
+    padding-bottom: 2.7778vw;
+    border-bottom: 1px solid lightgray;
+}
+.subscribe-section-form-second-step > div > button {
+    margin-right: 1.111vw;
+    padding : 0;
+    width: 100%;
+    background-color: transparent;
+}
+.subscribe-section-form-second-step > div > button:last-child{
+    margin-right: 0;
+}
+.subscribe-section-form-second-step-button-block{
+    display: flex;
+    flex-direction: row;
+}
+.subscribe-section-form-third-step{
+    padding-top: 2.7778vw;
+    padding-bottom: 2.77778vw;
+}
+.black-button{
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+}
+
+.subs-faq-section{
+    position: relative;
+    min-height: 69.44vw;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq-block{
+    width: 59.72vw;
+    border: 1px solid #121212;
+    padding: 5.55vw;
+}
+.faq-block > ul > li > a{
+    justify-content: space-between!important;
+    text-transform: capitalize;
+}
+.faq-block > ul > li {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #121212;
+}
+
+.faq-block > ul{
+    flex-direction: column;
+}
+.faq-block > ul > li> div{
+    color: #121212;
+    font-size: 1.111vw;
+}

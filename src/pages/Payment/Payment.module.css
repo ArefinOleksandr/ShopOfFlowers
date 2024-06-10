@@ -1,0 +1,273 @@
+.payment-page{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.87vw;
+}
+.order-section{
+    width: 50vw;
+}
+.form-section{
+    width: 50vw;
+    padding: 2.778vw 5.556vw ;
+    border: 1px solid #121212;
+    border-top: 0;
+}
+.inputs-form-section{
+    padding-top: 2.78vw;
+}
+.inputs-form-section > button{
+    background-color: transparent;
+    border: 0;
+    font-size: 1.25vw;
+    margin-bottom: 1.111vw
+}
+.inputs-form-section input{
+    font-size: 0.97vw;
+}
+.inputs-form-section form > input,  
+.inputs-form-section form > div > input,
+.order-section-details-gift  > form > input{
+    margin-bottom: 1.111vw;
+    height: 3.8889vw;
+    width: 100%;
+}
+.inputs-form-section form > button, .order-section-details-gift > form > button{
+    width: 100%;
+    background-color: #121212;
+    color: #fff;
+    height: 3.8889vw;
+    border: 0;
+}
+.active-menu-string{
+    color: #121212;
+    font-weight: 600;
+    cursor: pointer;
+}
+.disable-menu-string{
+    color: gray;
+    cursor: default;
+}
+
+.another-payment-button > button{
+    height: 3.8889vw;
+    background-color: #fff;
+    border: 1px solid #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55vw;
+}
+.gapper-div{
+    display: flex;
+    flex-direction: row;
+    gap: .55vw
+}
+
+/* ORDER STYLE */
+.order-section {
+    padding: 2.7778vw 5.5556vw  ;
+    display: flex;
+    flex-direction: column;
+    gap: 2.7778vw;
+    border: 1px solid #121212;
+    border-left: 0;
+    border-top: 0;
+    background-color: #D2D2D750;
+}
+.order-section > h4 {
+    margin: 0;
+}
+.order-section-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6667vw;
+}
+.order-section-details-product{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.6667vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    gap: 1vw;
+    max-height: 23.8333vw;
+    overflow-y: scroll;
+}
+.order-section-details-product > div{
+    display: flex;
+    flex-direction: row;
+    gap: 1.111vw;
+    width: 100%;
+}
+.order-section-details-product > div > img{
+    width: 11.1111vw;
+}
+.order-section-details-product > div > div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-section-details-product > div > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: .69vw
+}
+.order-section-details-product > div > div > h6, 
+.order-section-details-product > div > div > div > h6, 
+.order-section-details-product > div > div > div > span {
+    margin: 0;
+}
+
+.order-section-details-gift{
+    padding-bottom: 1.6667vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.order-section-details-subtotal > div,
+.order-section-details-total > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order-section-details-subtotal{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6667vw;
+    padding-bottom: 1.6667vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+/* STRUCTURE MEDIA */
+
+@media (max-width: 768px) {
+    .payment-page{
+        flex-direction: column-reverse!important;
+        margin-top: 10.87vw;
+    }
+    .payment-page > div{
+        width: 100vw;
+    }
+    .order-section > button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+        padding: 0;
+    }
+
+}
+@media (max-width:768px) and (min-width: 375px){
+    .order-section{
+        padding: 5.2vw 10.42vw;
+
+    }
+    .order-section-details-product > div > img {
+        width: 20.8333vw;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+    }
+
+    .inputs-form-section form > button, .order-section-details-gift > form > button{
+        height: 7.29vw;
+    }
+    .inputs-form-section form > input,  
+    .inputs-form-section form > div > input,
+    .order-section-details-gift  > form > input{
+        height: 7.29vw;
+    }
+    .another-payment-button > button{
+        height: 7.29vw;
+    }
+}
+
+@media (max-width: 375px) {
+    
+    .order-section{
+        padding: 6.4vw 4.26vw;
+        gap: 6.4vw;
+    }
+    .order-section-details{
+        gap: 6.4vw;
+    }
+    .order-section-details > div {
+        padding-bottom: 6.4vw;
+    }
+    .order-section-details-product{
+        max-height: 80vw;
+        gap: 6.4vw;
+    }
+    .order-section-details-product > div{
+        flex-direction: column;
+        
+    }
+    .order-section-details-product > div > img {
+        width: 45vw;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+    }
+    .inputs-form-section form > button, .order-section-details-gift > form > button{
+        height: 12.8vw;
+    }
+    .inputs-form-section form > input,  
+    .inputs-form-section form > div > input,
+    .order-section-details-gift  > form > input,
+    .another-payment-button > button{
+        height: 12.8vw;
+    }
+    .gapper-div{
+        flex-direction: column;
+        gap: .96vw;
+    }
+    .another-payment-button > button{
+        width: 100%
+    }
+}
+
+/* FONTS MEDIA */
+
+@media (min-width: 768px) {
+    .payment-page button{
+        font-size: 1.25vw;
+    }
+    .payment-page input{
+        font-size: .97vw;
+    }
+    .payment-page span {
+        font-size: .97vw;
+    }
+    .order-section span {
+        font-size: 1.111vw;
+    }
+    .order-section h4 {
+        font-size: .97vw;
+    }
+    .order-section h6{
+        font-size: 1.25vw;
+        font-weight: 500;
+    }
+}
+@media (max-width: 768px) and (min-width: 375px){
+    
+    .payment-page span,.payment-page input, .order-section h4 {
+        font-size: 1.82vw;
+    }
+    .order-section span, .payment-page button {
+        font-size: 2.08vw;
+    }
+    .order-section h6{
+        font-size: 2.34vw;
+        font-weight: 500;
+    }
+}
+@media(max-width: 375px){
+    .payment-page span,.payment-page input, .order-section h4 {
+        font-size: 3.73vw;
+    }
+    .order-section span, .payment-page button {
+        font-size: 4.26vw;
+    }
+    .order-section h6{
+        font-size: 4.8vw;
+        font-weight: 500;
+    }
+
+}

@@ -1,0 +1,51 @@
+.nav-navbar{
+    display: flex;
+    flex-direction: row;
+    height: 5.95vw;
+    z-index: 1020;
+    background-color: #fff;
+}
+.nav-navbar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.nav-navbar ul > li {
+    border: 1px solid #121212;
+    border-right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-navbar ul > li:last-child{
+    border-right: 1px solid #121212;
+}
+.nav-navbar > div {
+    border: 1px solid #121212;
+    border-right: 0;
+    border-left: 0;
+
+}
+
+.nav-navbar ul > li > a{
+    color: #121212;
+}
+.nav-navbar ul > li > button{
+    background-color: transparent;
+    border: 0;
+
+}
+.nav-navbar ul > li > a:hover{
+    color: #121212;
+    text-decoration: none;
+}
+
+
+.nav-navbar ul > li > a, .nav-navbar ul > li > button{
+    font-size: 1.111vw;
+     font-weight: 500;
+     cursor: pointer;
+}
