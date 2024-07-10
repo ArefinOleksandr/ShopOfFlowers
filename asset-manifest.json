@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShopOfFlowers/static/css/main.359f4457.css",
-    "main.js": "/ShopOfFlowers/static/js/main.6d267d96.js",
+    "main.js": "/ShopOfFlowers/static/js/main.ac03e393.js",
     "static/js/453.01a787a9.chunk.js": "/ShopOfFlowers/static/js/453.01a787a9.chunk.js",
     "static/media/FreshImage.png": "/ShopOfFlowers/static/media/FreshImage.918ddbcc33527b596c1e.png",
     "static/media/png": "/ShopOfFlowers/static/media/7a66dea591b3414cb122cd629daef0ac.40d5b41dcd9cb37bd73c.png",
@@ -42,11 +42,11 @@
     "static/media/VectorPlus.svg": "/ShopOfFlowers/static/media/VectorPlus.2e8813455e981a535dc205ff420a32fc.svg",
     "static/media/VectorMinus.svg": "/ShopOfFlowers/static/media/VectorMinus.450ae49288249266430ca64aab8199be.svg",
     "main.359f4457.css.map": "/ShopOfFlowers/static/css/main.359f4457.css.map",
-    "main.6d267d96.js.map": "/ShopOfFlowers/static/js/main.6d267d96.js.map",
+    "main.ac03e393.js.map": "/ShopOfFlowers/static/js/main.ac03e393.js.map",
     "453.01a787a9.chunk.js.map": "/ShopOfFlowers/static/js/453.01a787a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.359f4457.css",
-    "static/js/main.6d267d96.js"
+    "static/js/main.ac03e393.js"
   ]
 }
